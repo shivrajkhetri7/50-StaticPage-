@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.container{
+    width: 100dvw;
+    height: 100dvh;
+    margin: 0px!important;
+    padding: 0px!important;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+}
+
+.singin{
+    padding: 10px 15px;
+    width: 25dvw;
+    height: 55dvh;
+    border: 1px solid rgba(129, 128, 128, 0.139);
+    border-radius: 16px 0px 16px 0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.singin-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: tomato;
+}
+
+.form-controller{
+    width: 100%;
+}
+
+.imp{
+    width: 100%;
+    height: 32px;
+    border-radius: 6px;
+    border: 1px solid rgba(129, 128, 128, 0.995);
+    margin: 12px 0px;
+}
+
+.imp::placeholder {
+    padding: 0px 4px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.help-text{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(103, 103, 103, 0.498);
+}
+
+.or-text{
+    text-align: center;
+    margin: 12px 0;
+    display:block;
+}
+
+.fp{
+    cursor: pointer;
+}
+
+.btn{
+    border: none;
+    border-radius: 6px;
+    font-weight: 400;
+    color: #fff;
+    padding: 8px 16px;
+    width: 225px;
+    cursor: pointer;
+}
+
+.icons{
+    width: 16px;
+    height: 16px;
+}
+
+.submit{
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+}
+
+.fb{
+    background-color: #3b5998;
+    margin: 12px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: center;
+}
+
+.google{
+    background-color: #db4a39;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: center;
+}
