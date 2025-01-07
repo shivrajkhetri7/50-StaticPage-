@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <!-- Left container -->
+            <div class="left-container">
+                <div class="banner-title">
+                    <img src="./rocket.gif" alt="rocket" />
+                    <br>
+                    Welcome To WEB PRO
+                </div>
+            </div>
+            <!-- Right Container -->
+             <div class="right-container">
+                <!-- from -->
+                 <div class="title">Sing Up</div>
+                 <form>
+                    <div class="form-controller">
+                        <input type="text" placeholder="First Name" class="imp" />
+                    </div>
+                    <div class="form-controller">
+                        <input type="text" placeholder="Last Name" class="imp" />
+                    </div>
+                    <div class="form-controller">
+                        <input type="email" placeholder="Email" class="imp" />
+                    </div>
+                    <div class="form-controller">
+                        <input type="number" placeholder="Mobile" required class="imp"/>
+                    </div>
+                    <div class="form-controller">
+                        <input type="password" placeholder="Password" class="imp" />
+                    </div>
+                    <div class="form-controller">
+                        <input type="password" placeholder="Confirm Password" class="imp" />
+                    </div>
+                    <div class="form-controller mt-1 mb-1">
+                        <label>Gender</label>
+                        <br> 
+                        <div class="gender-class">
+                        <span><input type="radio" name="gender" value="male"> Male </input></span>
+                        <span><input type="radio" name="gender" value="female"> Female </input></span> 
+                        <span><input type="radio" name="gender" value="other"> Not to Say </input></span> 
+                    </div>
+                    </div>
+                    <div class="form-controller mt-1 mb-1">
+                        <div class="postal">
+                            <select class="select-city">
+                                <option>Select City</option>
+                                <option value="pune">Pune</option>
+                                <option value="mumbai">Mumbai</option>
+                                <option value="solapur">Solapur</option>
+                                <option value="nagpur">Nagpur</option>
+                            </select>
+                        <input type="number" placeholder="Enter Postal Code" class="imp" />
+                    </div>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                 </form>
+             </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; /* Ensures padding and border are part of the width/height */
+    width: 100%; /* Ensures it spans the full width of the container */
+    height: auto; /* Adjusts height dynamically based on content */
+    background-color: rgb(130,107,250);
+}
+
+
+.container{
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-weight: 600;
+    text-align:  center;
+    text-transform: capitalize;
+    font-size: 28px;
+    color: rgb(130,107,250);
+}
+
+.left-container{
+    height: 100dvh;
+    width: 50dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container{
+    height: 90dvh;
+    width: 40dvw;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.postal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.imp{
+    height: 32px;
+    border-radius: 6px;
+    margin: 10px 0px;
+    width: 100%;
+    border: 1px solid  rgb(130,107,250);
+}
+
+.imp::placeholder{
+    padding: 0px 5px;
+}
+
+.btn{
+    background-color: rgb(130,107,250);
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+}
+
+.banner-title{
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.gender-class{
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mt-1{
+    margin-top: 0.3rem;
+}
+
+.mb-1{
+    margin-bottom: 0.3rem;
+}
+
+.select-city{
+    width: 50%;
+    height: 32px;
+    border-radius: 6px;
+    margin: 10px 0px;
+    border: 1px solid  rgb(130,107,250);
+}
