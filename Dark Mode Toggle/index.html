@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+        <button onclick="getClick()" id="btn">Dark</button>
+      </div>
+  </body>
+  <script>
+        function getClick() {
+        const button = document.getElementById('btn');
+        const container = document.getElementById('container');
+        const text = button.innerText;
+
+        if (text === 'Dark') {
+          button.innerText = 'Light';
+          container.style.backgroundColor = 'black';
+          button.style.color = 'black'; // To contrast with the background
+          button.style.backgroundColor = 'white';
+        } else if (text === 'Light') {
+          button.innerText = 'Dark';
+          container.style.backgroundColor = 'white';
+          button.style.color = 'white'; // To contrast with the background
+          button.style.backgroundColor = 'black';
+        }
+      }
+  </script>
+</html>
