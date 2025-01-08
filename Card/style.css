@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F7;
+}
+
+.card{
+    background-color: #fff;
+    padding: 15px 10px;
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    scrollbar-width: 5px;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.card-profile-name{
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0.1rem 0rem;
+}
+
+.img-dp{
+   object-fit: cover;
+}
+
+.card-profile-subtitle{
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 12px;
+}
+
+.description {
+    margin: 1rem 0rem;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify; /* You can choose 'justify', 'left', 'right', or 'center' */
+    line-height: 24px;
+    word-spacing: normal; /* This is the default; change it if you need extra spacing */
+    overflow-wrap: break-word; /* Ensures long words break properly */
+}
+
+button{
+    margin: 1rem 0 0 0;
+    border: none;
+    background-color: transparent;
+    color: rgba(31, 77, 184, 0.897);
+    cursor: pointer;
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
