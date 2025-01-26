@@ -1,0 +1,48 @@
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-family: "DynaPuff", serif;
+    font-weight: 700;
+    font-size:xx-large;
+    text-transform: capitalize;
+}
+
+.nav{
+    min-height: 80px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f19e91;
+    margin: 0 10px;
+    border-radius: 1rem;
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.menu-items>h3{
+    font-family: "DynaPuff", serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.btn-submit{
+    border: none;
+    width: 150px;
+    border-radius: 16px;
+    padding: 6px 12px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "DynaPuff", serif;
+}
