@@ -1,0 +1,16 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://cdn.vectorstock.com/i/1000v/90/13/futuristic-cyber-hud-background-vector-39819013.avif');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-attachment: fixed;
+}

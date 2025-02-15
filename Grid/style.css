@@ -1,0 +1,130 @@
+html body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+.grid-pass {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .left {
+        width: 100%;
+
+        h1 {
+            font-size: 4em;
+            font-weight: 700;
+        }
+
+        .title {
+            color: #6e6d6d;
+        }
+    }
+
+    .right {
+        width: 100%;
+        height: 10rem;
+
+        .images {
+            border-radius: 10px;
+            object-fit: cover;
+            display: grid;
+            gap: 1rem;
+            grid-template-areas:
+                "a a b b"
+                "a a b b"
+                "a a b b"
+                "a a b b"
+                "a a b b"
+                "a a c c"
+                "a a c c"
+                "a a c c";
+
+            .img-a {
+                grid-area: a;
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+            }
+
+            .img-b {
+                grid-area: b;
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+
+            .img-c {
+                grid-area: c;
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+        }
+
+    }
+}
+
+@media (min-width : 1020px) {
+    .grid-pass {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+
+        .left {
+            width: 100%;
+    
+            h1 {
+                font-size: 6em;
+                font-weight: 700;
+            }
+    
+            .title {
+                color: #6e6d6d;
+            }
+        }
+
+        .right {
+            width: 100%;
+            height: 10rem;
+
+            .images {
+                grid-template-areas:
+                    ". . b b"
+                    "a a b b"
+                    "a a b b"
+                    "a a b b"
+                    "a a b b"
+                    "a a c c"
+                    "a a c c"
+                    ". . c c";
+
+                .img-a {
+                    grid-area: a;
+                    width: 100%;
+                    aspect-ratio: 8/2;
+                }
+
+                .img-b {
+                    grid-area: b;
+                    aspect-ratio: 2/2;
+                }
+                .img-c {
+                    grid-area: c;
+                    aspect-ratio: 2/2;
+                }
+            }
+
+        }
+    }
+}
